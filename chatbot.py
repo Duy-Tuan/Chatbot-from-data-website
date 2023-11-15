@@ -39,7 +39,7 @@ def main(client, df):
                 messages=[
                     {
                         "role": "system",
-                        "content": "Answer the question based on the context below, and if the question can't be answered based on the context, say \"I don't know\"\n\n",
+                        "content": "Answer the question based on the context below, and if the question can't be answered based on the context, say \"I don't know\"\n\n. Please provide the answer in the form of bullet points.",
                     },
                     {
                         "role": "user",
